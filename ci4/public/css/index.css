@@ -61,14 +61,14 @@ h1 {
 }
 
 .homebg {
-	background-image:url('./images/bg4.jpg');
+	background-image:url('../images/bg4.jpg');
 	background-position: center;
 	background-size: cover;
 	background-attachment:fixed;
 }
 
 .aboutbg {
-	background-image:url('./images/bg5.png');
+	background-image:url('../images/bg5.png');
 	background-position: center;
 	background-size: cover;
 	background-attachment:fixed;
