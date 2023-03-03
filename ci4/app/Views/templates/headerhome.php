@@ -1,5 +1,3 @@
-<!doctype html>
-<html>
 <head>
     <link rel="icon" type="image/png" href="./images/crown_icon.png">
     <link rel="stylesheet" href="css/index.css">
@@ -11,10 +9,10 @@
     <header>
         <div class="container">
 
-            <a href="index.php"><img src="./images/logo1.png" width="10%" height=auto class="logo"></a>
+            <a href="index"><img src="./images/logo1.png" width="10%" height=auto class="logo"></a>
             <nav>
                 <ul>
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="index">Home</a></li>
                     <li><a href="about">About</a></li>
                     <li><a href="forms">Forms</a></li>
                     <li><a href="resources">Resources</a></li>

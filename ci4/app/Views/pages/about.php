@@ -2,31 +2,7 @@
 <html>
 <head>
 	<title>about aliyah kirstie</title>
-	<link rel="icon" type="image/png" href="./images/crown_icon.png">
-	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
-	<script src="js/script.js"></script>
 </head>
-
-<body class="aboutbg">
-
-	<header>
-		<div class="container">
-
-			<a href="index"><img src="./images/logo1.png" width="10%" height=auto class="logo"></a>
-			<nav>
-				<ul>
-					<li><a href="index">Home</a></li>
-					<li><a href="about">About</a></li>
-					<li><a href="forms">Forms</a></li>
-					<li><a href="resources">Resources</a></li>
-				</ul>
-			</nav>
-
-		</div>
-	</header>
-
-	
 	<div class="header2">
 		<h2>about me</h2>
 	</div>
@@ -44,19 +20,6 @@
 			<li>learning new languages</li>
 		</ul>
 	</div>
-
-	<footer id="resfoot">
-		<div class="row">
-			<div class="column">
-				<button type="button" class="neon-button" onclick="displayDate()">in what year are we?</button>
-				<p id="showDate"></p>
-			</div>
-			<div class="column">
-				<p class="footcont">san junipero inspired.</p>
-			</div>
-		</div>
-	</footer>
-
 
 </body>
 </html>

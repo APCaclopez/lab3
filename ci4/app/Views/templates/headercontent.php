@@ -1,17 +1,15 @@
-<!doctype html>
-<html>
 <head>
     <link rel="icon" type="image/png" href="./images/crown_icon.png">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
 </head>
 
-<body class="homebg">
+<body class="aboutbg">
 
     <header>
         <div class="container">
 
-            <a href="index.php"><img src="./images/logo1.png" width="10%" height=auto class="logo"></a>
+            <a href="index"><img src="./images/logo1.png" width="10%" height=auto class="logo"></a>
             <nav>
                 <ul>
                     <li><a href="index.php">Home</a></li>

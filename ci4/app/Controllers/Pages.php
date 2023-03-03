@@ -8,7 +8,9 @@ class Pages extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        return view('templates/headerhome')
+        . view('templates/homebody')
+        . view('templates/footer');
     }
 
     public function view($page = 'home')
@@ -20,7 +22,7 @@ class Pages extends BaseController
 
         $data['title'] = ucfirst($page); // Capitalize the first letter
 
-        return view('templates/header', $data)
+        return view('templates/headercontent', $data)
             . view('pages/' . $page)
             . view('templates/footer');
     }
