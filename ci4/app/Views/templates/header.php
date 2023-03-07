@@ -16,7 +16,7 @@
                 <ul>
                     <li><a href="<?= base_url() ?>">Home</a></li>
                     <li><a href="about">About</a></li>
-                    <li><a href="forms">Forms</a></li>
+                    <li><a href="guests">Guests</a></li>
                     <li><a href="news">News</a></li>
                     <li><a href="resources">Resources</a></li>
                 </ul>
