@@ -45,7 +45,7 @@ class News extends BaseController
         // Checks whether the form is submitted.
         if (! $this->request->is('post')) {
             // The form is not submitted, so returns the form.
-            return view('templates/header', ['title' => 'Create a news item'])
+            return view('templates/headercontent', ['title' => 'Create a news item'])
                 . view('news/create')
                 . view('templates/footer');
         }
@@ -58,7 +58,7 @@ class News extends BaseController
             'body'  => 'required|max_length[5000]|min_length[10]',
         ])) {
             // The validation fails, so returns the form.
-            return view('templates/header', ['title' => 'Create a news item'])
+            return view('templates/headercontent', ['title' => 'Create a news item'])
                 . view('news/create')
                 . view('templates/footer');
         }
@@ -71,7 +71,7 @@ class News extends BaseController
             'body'  => $post['body'],
         ]);
 
-        return view('templates/header', ['title' => 'Create a news item'])
+        return view('templates/headercontent', ['title' => 'Create a news item'])
             . view('news/success')
             . view('templates/footer');
     }

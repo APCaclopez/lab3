@@ -3,11 +3,14 @@
 </head>
 
 <div class="header2">
-<h2><?= esc($title) ?></h2>
+    <h2><?= esc($title) ?></h2>
 </div>
 
 <div class="subcontent">
-<?php if (! empty($news) && is_array($news)): ?>
+    <p>If you want to create a news item, click <a href="<?= base_url("news/create/") ?>">HERE</a></p>
+    <br>
+
+    <?php if (! empty($news) && is_array($news)): ?>
 
     <?php foreach ($news as $news_item): ?>
 
